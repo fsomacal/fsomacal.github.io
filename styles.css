@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(178, 115, 237);
+    text-align: center;
+}
+
+.conv {
+    background-color: rgb(223, 85, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Alinha os itens horizontalmente */
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 10px;
+    gap: 10px;
+    padding: 20px; /* Espaço interno ao redor dos itens dentro da div */
+    margin: auto; /* Centraliza a div na horizontal */
+    width: fit-content; /* Ajusta o tamanho da div ao conteúdo */
+}
+
+
+select {
+    height: 50px;
+    font-size: larger;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+input {
+    width: 200px;
+    height: 60px;
+    font-size: larger;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+#resultado {
+    display: flex;
+    justify-content: center; /* Alinha o texto horizontalmente */
+    align-items: top; /* Alinha o texto verticalmente */
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px auto; /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+#tempo{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px auto; /* Centraliza horizontalmente */
+}

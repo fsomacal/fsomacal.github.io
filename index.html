@@ -1,0 +1,37 @@
+<head>
+    <title>Conversor</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>⏰ Conversor de tempo ⏰</h1>
+
+    <div class="conv">
+        <select id="conversao">
+          <option value="sec">Segundos</option>
+          <option value="mins">Minutos</option>
+          <option value="hou">Horas</option>
+          <option value="days">Dias</option>
+          <option value="moth">Meses</option>
+          <option value="yers">Anos</option>
+        </select>
+
+        <h1>para</h1>
+
+        <select id="conversao2">
+          <option value="sec">Segundos</option>
+          <option value="mins">Minutos</option>
+          <option value="hou">Horas</option>
+          <option value="days">Dias</option>
+          <option value="moth">Meses</option>
+          <option value="yers">Anos</option>
+        </select>
+    </div>
+
+    <label for="tempo"></label>
+    <input type="number" id="tempo" placeholder="Digite um número" min="0">
+
+    <p id="resultado">Resultado: </p>
+
+    <script src="scripts.js"></script>
+</body>
