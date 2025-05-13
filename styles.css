@@ -63,3 +63,6 @@ input:focus {
     background-color: white;
     margin: 20px auto; /* Centraliza horizontalmente */
 }
+table{
+    justify-content: center;
+}
